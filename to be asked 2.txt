@@ -1,0 +1,35 @@
+Thin provisioning and how it works
+SSD Tiring and fundamental
+Flash copy fundamental and use in high availability, what is use of flash copy for taking environment backup
+DR role switching procedure
+total no of disks supported in DS8k all models
+dual SFI configuration in DS8k
+IP based replication in V7000
+SVC new model features
+SVC GM and GM with change volume difference
+metro mirror max distance support
+Cisco and brocade director switch architecture
+switch port attribute
+switch port errors (bit error, crc in, crc out errors)
+ISL configuration, IVR fundamental
+DS8k logical configuration
+performance analyze parameter
+MGM fundamental
+Max FC target on one source volume
+SVC Image mode
+SVC virtualization
+SVC/V7000 config node?
+SVC quorum disk selection
+Stretch SVC concept
+SVC/v7000 IO Group funda
+SVC/v7000 IO group maximum node configuration
+FCIP models you worked on
+whats the role of trunk in ISL
+max ISL in a port group
+port group funda in switch brocade/Cisco
+what is tunnel in replication configuration
+Q-depth value for HBA? and recommended value for IBM storages
+Multipath software for each IBM storage
+what is multipath
+what is quorum disk in host cluster
+what is shared disk funda in host cluster

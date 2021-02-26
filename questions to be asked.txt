@@ -1,0 +1,29 @@
+what type of quota we set that means user wise or groupwise 
+
+how are you using a vfiler here that means what is the purpose here for creation of vfilers and what are dedicated resources or shared between vfilers
+
+
+nomenclature of sharees,exports and volumes
+
+how is snapmirror set up here
+
+snapshot  schedule
+
+
+are we using snapvault
+
+sops of failover and dr drill   ---- most important
+
+
+replication setup between physical filer and virtual filer.--- impotant
+
+netapp backup using ndmp and TSM ---- which sites using ndmp and which are using TSM..
+
+DFW has nodes configured on different vlans, is Vlan routing configured on it..
+
+
+
+
+
+
+

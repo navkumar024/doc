@@ -1,0 +1,79 @@
+
+
+can you delete a qtree if yes how ?---------------
+go to advanced mode , then you will get an option to delete a qtree
+
+how do you collect an autosupport in 8.01 ---
+
+16. What is the difference between ONTAP 7 & 8?---------------------
+
+In ONTAP 7 the individual aggregate is limited to maximum of 16 TB. Where ONTAP 8 supports the new 64 bit
+aggregate and hence the size of the individual aggregate extends to 100 TB.
+
+How is data written to disk in netapp: ------ first data is written to nvram cache then it is flushed to the disks, in case of partner failer, the nvram is
+split in to 2 parts and thalf part is used for partners data and 1/4 for write operations.
+
+What if there is power outage while writing data ----------------------- it is stored in NVRAM of the filer which is backed by the battery.
+
+how do you increase a volume that is in snapmirror replication ----
+
+
+18. While doing baseline transfer you’re getting error message. What are the troubleshooting steps you’ll do?----------------
+
+Ans:-
+Check both the hosts are reachable by running “ping” command
+Check whether the TCP port 10566 & 10565 are open from firewall
+Check whether the snapmirror license are installed in both filers
+
+
+What is RLM and what is its usage ?
+
+How to upgrade data ontap ---- steps --------
+
+what are pre requisites for failover to partner ------------------- cf status , all disks visible
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Difference between grain size and extent size: ----------extent size is the smallest part of the volume or storage on which data is being copied
+
+When you create a thin-provisioned volume, you can choose the grain size for allocating space in 32 KB, 64 KB, 128 KB, or 256 KB chunks. The grain size that you 
+select affects the maximum virtual capacity for the thin-provisioned volume. The default grain size is 256 KB, and is the strongly recommended option. If you 
+select 32 KB for the grain size, the volume size cannot exceed 260,000 GB. The grain size cannot be changed after the thin-provisioned volume has been created. 
+Generally, smaller grain sizes save space but require more metadata access, which can adversely impact performance. If you are not going to use the thin-provisioned
+volume as a FlashCopy® source or target volume, use 256 KB to maximize performance. If you are going to use the thin-provisioned volume as a FlashCopy source or target
+volume, specify the same grain size for the volume and for the FlashCopy function.
+
+difference between GM and GMCV ? Which one is useful? ----- gmcv saves bandwidth, also performce is good in gmcv
+MGM , GM and metro mirror ----------------------------------how will you expand a volume in global mirror.
+in gmcv flash copy is done from primary volume to the primary volume cv in one cycling period then it is replicated to the secondary site cv then flash copied to secondary volume
+
+
+What is SFI ? how many enclosures are there in base model..of ds8870 ?
+
+total no of disks in ds8800 ---1536 ,, base 10 encl , 14 enclo, 20 and 20 enclosures.
+
+how do you migrate data using svc ----- scenario
+
+difference between cg8 and dh8 models of svc? ---- supports internal 2 enclosures of 24 drives.....has compression aceleration card
+what is stretched cluster in svc?
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+No of vsans in cisco san switch ---  vsan 1 --default ----4096 is isolated vsan
+steps to upgrade cisco san switch ----- copy image file in bootflash , install all kickstart
+cisco directr switches architecture ------ 10 blades and 2 supervisore modules which work in active/passive modes.
+difference between npv and npiv modes ----------how to configure npv and npiv on cisco switches.
+what is the use of npv and npiv in switch connectivity with hosts......
+what is port channel----------------PortChannels refer to the aggregation of multiple physical interfaces into one logical interface to provide
+higher aggregated bandwidth, load balancing, and link redundancy
+
+

@@ -1,0 +1,60 @@
+how to replace cg8 nodes with DH8 nodes..
+how to migrate data from third party storage to SVC.
+what is self healing in XIV
+how to configure Vfiler DR in netapp.  
+how many switches are required in 10 node netapp cluster and why
+what is qdepth and what is the role of qdepth.
+what is NPV and NPIV
+how will you connect 2 different sites for replication.
+upgrade netapp storage.
+how do you ISL cisco switches
+how do you upgrade a cisco mds switch
+
+
+Metro cluster
+Port errors in san Switc port
+Ports in dh8 node if svc
+Is stretched cluster supported in v7000 storage
+Raid controller in ds8000
+Roll back for firmware upgeade on cisco and brocade
+
+replacing cg8 nodes with dh8 nodes
+
+
+Thin provisioning and compression in one go?
+
+
+limitations of volumes that can be compressed
+
+
+limitations of volume that can be compressed
+
+
+what are child pools
+
+
+difference between caching IO group and accessible  IO group?
+
+
+what is the purpose of quorum disks?
+
+
+what is port port fencing
+
+
+what is self healing.
+
+
+what is phase in and phase out
+
+
+ds8k complete allocation process
+
+
+what is persistent binding?
+
+
+what is port fencing ?
+
+
+vsan concept in cisco
